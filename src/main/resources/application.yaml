@@ -1,0 +1,15 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 128MB
+      max-request-size: 200MB
+      enabled: true
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/inventi
+    username: inventi
+    password: inventi
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
