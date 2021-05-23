@@ -43,5 +43,5 @@ also you can specify date from and to with Json body
     "dateTo": "2021-05-25",
     "dateFrom": "2021-05-23"
 }
-12. Happy Review, sorry could not add test because of lack of time! Hope to see you and talk with you! (Not good at testing)
+12. Happy Review, sorry could not add test because of lack of time! Hope to see you and talk with you! (Not good with Junit testing)
 13. Not really sure about data i used because i have to improvise and do it on my self. There is lot ways to improve the code and do custom validations!
