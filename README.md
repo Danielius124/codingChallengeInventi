@@ -18,7 +18,7 @@ AND
     "fullName": "Danielius Miciulis"
 }
 7. After that download CSV file with data (attached to email)
-8. Comeback to Postmap and do following:
+8. Comeback to Postman and do following:
 POST: http://localhost:8080/api/transaction/upload
 add form-data file and attach csv file you downloaded.
 9. Again if you want to get account balance
