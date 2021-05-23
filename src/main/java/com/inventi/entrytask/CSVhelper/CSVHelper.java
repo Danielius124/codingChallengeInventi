@@ -39,10 +39,10 @@ public class CSVHelper {
                 String[] row = line.split(";");
                 AccountTransaction accountTransaction = new AccountTransaction(
                         UUID.randomUUID(),
-                        row[0],
-                        LocalDate.now(),
                         row[1],
+                        LocalDate.now(),
                         row[2],
+                        row[0],
                         Double.parseDouble(row[3]),
                         row[4],
                         null

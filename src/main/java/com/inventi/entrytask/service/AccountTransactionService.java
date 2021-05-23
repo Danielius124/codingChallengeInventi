@@ -39,11 +39,6 @@ public class AccountTransactionService {
             }
             return x;
         }).collect(Collectors.toList());
-
-        // not sure but first value of map always gets null account object...
-        //workaround
-        transactionWithAccounts.remove(0);
-
         accountTransactionRepository.saveAll(transactionWithAccounts);
     }
 
